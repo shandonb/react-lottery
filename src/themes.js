@@ -12,7 +12,14 @@ const lightTheme = createTheme({
 });
 
 const darkTheme = createTheme({
-
+    palette: {
+        primary: {
+            main: '#37464d'
+        },
+        secondary: {
+            main: '#f5e5bc'
+        }
+    }
 });
 
 const luckyTheme = createTheme({
